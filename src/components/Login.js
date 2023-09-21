@@ -2,12 +2,12 @@ import React from "react";
 
 const Login = () => {
   return (
-    <div className="bg-neutral-300 flex h-screen items-center justify-center bg-[url('https://w7.pngwing.com/pngs/293/650/png-transparent-government-bond-brand-logo-saving-organization-post-office.png')] bg-center bg-cover">
-    
-      <div className="justify-center bg-white border-1 shadow-lg border-b-red-400 w-1/3 rounded-xl h-2/5">
+    <div className="bg-neutral-300 flex h-screen w-screen items-center justify-center ">
+     <div className="justify-center bg-white border-1 shadow-lg border-b-red-400 w-1/3 rounded-xl h-2/5">
         <div className="p-2 justify-center text-center flex font-semibold text-5xl text-[#C9252C]">
           Login
         </div>
+    
         <div className="p-2 w-full">
           <div className="px-2 text-[#C9252C] text-xl">
             <label>User Name:</label>
@@ -16,7 +16,7 @@ const Login = () => {
             <input
               name="uname"
               id="uname"
-              className="border-2 w-full text-xl h-12 p-1 rounded-xl border-[#C9252C] hover:border-[#FFBC00] focus:border-[#FFBC00]"
+              className="border-2 focus:border-[#C9252C] w-full text-xl h-12 p-1 rounded-xl border-[#C9252C] "
             />
           </div>
           <div className="px-1 text-[#C9252C] text-xl">
