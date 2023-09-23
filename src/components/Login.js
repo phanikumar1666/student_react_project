@@ -1,9 +1,10 @@
 import React from "react";
+import Footer from "./Footer";
 
 const Login = () => {
   return (
-    <div className="bg-neutral-300 flex h-screen w-screen items-center justify-center ">
-     <div className="justify-center bg-white border-1 shadow-lg border-b-red-400 w-1/3 rounded-xl h-2/5">
+    <div className="bg-gradient-to-r from-orange-400 to-transparent flex h-screen w-screen items-center justify-center ">
+     <div className="justify-center bg-gradient-to-r from-transparent to-transparent border-1 shadow-2xl shadow-black border-b-red-400 w-1/3 rounded-xl h-2/5">
         <div className="p-2 justify-center text-center flex font-semibold text-5xl text-[#C9252C]">
           Login
         </div>
@@ -41,6 +42,7 @@ const Login = () => {
           </div>
         </div>
       </div>
+      <Footer/>  
     </div>
   );
 };

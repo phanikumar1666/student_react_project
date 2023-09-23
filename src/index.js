@@ -1,13 +1,29 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Login from './components/Login';
-
+import Dashboard from './components/DashBoard';
+import Layout from './components/Layout';
+import Dataentry from './components/Dataentry';
+import Common from './components/Common';
+import Footer from './components/Footer';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Login/>
+ 
+  <Router>    
+    <Routes>  
+      <Route exact path="/" element={<Login/>} />
+      <Route exact path="/dhanush" element={<Login/>} />
+      <Route path="/login" element={<Login/>} />     
+      <Route path="/dashboard" element={<Layout door={<Dashboard/>}/>} />
+      <Route path="/pauljhonson" element={<Layout door={<Dashboard/>}/>} />
+     <Route path="/dataentry" element={<Layout door={<Dataentry/>}/>}/>
+    </Routes>          
+     
+  </Router>
+
   </React.StrictMode>
 );
 

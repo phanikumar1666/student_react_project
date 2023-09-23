@@ -7,6 +7,12 @@ module.exports = {
     extend: {
      
     },
+    colors:{
+      'primary-clr':'#C9252C',
+      'secondary-clr':'#FFBC00',
+      'bg-clr':'#F7F7FA',
+      'bg-white':'#ffffff'
+    }
   },
   plugins: [],
 }
