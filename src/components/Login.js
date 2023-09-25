@@ -51,7 +51,7 @@ const Login = () => {
           <div className="px-2 text-[#C9252C] text-xl">
             <label>User Name:</label>
           </div>
-          <div className="p-2">
+          <div className="p-2"> 
             <input
               name="uname"
               id="uname"
