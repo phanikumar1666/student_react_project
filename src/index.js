@@ -8,6 +8,7 @@ import Layout from './components/Layout';
 import Dataentry from './components/Dataentry';
 import Common from './components/Common';
 import Footer from './components/Footer';
+import Register from './components/Register';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -20,6 +21,7 @@ root.render(
       <Route path="/dashboard" element={<Layout door={<Dashboard/>}/>} />
       <Route path="/pauljhonson" element={<Layout door={<Dashboard/>}/>} />
      <Route path="/dataentry" element={<Layout door={<Dataentry/>}/>}/>
+     <Route path='/register' element={<Register/>}/>
     </Routes>          
      
   </Router>
